@@ -1,5 +1,5 @@
 (function ( $ ) {
-	var UROB_API_URL = "http://api.uptimerobot.com/";
+	var UROB_API_URL = "//api.uptimerobot.com/";
 	var defaultMonitorConf = {
         	color: "#5cb85c",
         	unavailableColor: "#E68A00",
