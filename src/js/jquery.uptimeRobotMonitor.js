@@ -247,7 +247,7 @@
 		
 		//Try loading image
 		var uptimeRobotLogo = new Image();
-		uptimeRobotLogo.src = 'http://uptimerobot.com/assets/img/logo3.png';
+		uptimeRobotLogo.src = '//uptimerobot.com/assets/img/logo3.png';
 		uptimeRobotLogo.onload = function(){
 			if(uptimeRobotLogo.width == 180 && uptimeRobotLogo.height == 52){//Must make sure logo is not changed to something too big. Better to ignore than over draw.
 		    	c.drawImage(uptimeRobotLogo, 10, yPaddingTop*0.90, uptimeRobotLogo.width*0.50, uptimeRobotLogo.height*0.50);
